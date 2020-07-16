@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/majid-T/solidity-direct-interact#readme",
   "devDependencies": {
-    "solc": "^0.6.11"
+    "bignumber.js": "^9.0.0",
+    "dotenv": "^8.2.0",
+    "solc": "^0.6.11",
+    "web3": "^1.2.9"
   }
 }
