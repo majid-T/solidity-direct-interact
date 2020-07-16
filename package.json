@@ -1,0 +1,23 @@
+{
+  "name": "solidity-direct-interact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majid-T/solidity-direct-interact.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/majid-T/solidity-direct-interact/issues"
+  },
+  "homepage": "https://github.com/majid-T/solidity-direct-interact#readme",
+  "devDependencies": {
+    "solc": "^0.6.11"
+  }
+}
