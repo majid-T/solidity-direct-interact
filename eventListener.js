@@ -28,16 +28,14 @@ simpleCounterContract.events
     console.log(event);
   })
   .on("data", function (event) {
-    console.log(event); // same results as the optional callback above
+    console.log(event);
   })
-  .on("changed", function (event) {
-    // remove event from local database
-  })
+  .on("changed", function (event) {})
   .on("error", console.error);
 
 // Subtraction Listener
 simpleCounterContract.events
-  .Addition((error, event) => {
+  .Subtraction((error, event) => {
     console.log(event);
   })
   .on("data", function (event) {
